@@ -1,4 +1,77 @@
-.App {
+* {
+  margin:0;
+}
+
+.App{
+  background-color: #fafafa;
+}
+
+.app__header{
+  z-index: 1;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  object-fit: contain;
+  padding: 0px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__headerImage{
+  object-fit: contain;
+  width: 15%;
+ 
+}
+
+.app__signup{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.app__posts{
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +108,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
